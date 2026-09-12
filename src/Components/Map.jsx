@@ -23,8 +23,8 @@ function Map() {
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
- 
-const [mapLat, mapLng] = useUrlPosition();
+
+  const [mapLat, mapLng] = useUrlPosition();
   useEffect(() => {
     if (mapLat && mapLng) {
       setMapPosition([mapLat, mapLng]);
@@ -50,7 +50,7 @@ const [mapLat, mapLng] = useUrlPosition();
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {cities.map((city) => (
           <Marker
