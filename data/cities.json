@@ -47,18 +47,6 @@
         "lng": -73.935242
       },
       "id": "12345678"
-    },
-    {
-      "cityName": "Ayna",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2026-09-12T12:16:46.379Z",
-      "notes": "ui",
-      "position": {
-        "lat": "38.53097889440024",
-        "lng": "-2.1093750000000004"
-      },
-      "id": "6GqsvHq3uHg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
