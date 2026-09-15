@@ -47,6 +47,18 @@
         "lng": -73.935242
       },
       "id": "12345678"
+    },
+    {
+      "cityName": "Juba",
+      "country": "South Sudan",
+      "emoji": "🇸🇸",
+      "date": "2026-09-15T13:32:33.099Z",
+      "notes": "1\n",
+      "position": {
+        "lat": "4.477856485570598",
+        "lng": "31.662597656250004"
+      },
+      "id": "p2JMwVA5XME"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
